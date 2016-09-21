@@ -11,26 +11,39 @@
         android:background="@color/gold"
         android:layout_height="100dp"
         android:layout_width="100dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
         />
     <View
-        android:background="@color/gold"
-        android:layout_height="75dp"
-        android:layout_width="75dp"
-        android:layout_centerInParent="true"
-        android:id="@+id/middle"
-        />
-    <View
-        android:background="@color/gold"
-        android:layout_height="75dp"
-        android:layout_width="75dp"
+        android:background="@color/foo"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
         android:layout_toLeftOf="@+id/middle"
         android:layout_above="@+id/middle"/>
     <View
         android:background="@color/gold"
-        android:layout_height="75dp"
-        android:layout_width="75dp"
+        android:layout_height="175dp"
+        android:layout_width="175dp"
+        android:layout_centerInParent="true"
+        />
+    <View
+        android:background="@color/foo"
+        android:layout_height="25dp"
+        android:layout_width="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/middle"
+        />
+
+    <View
+        android:background="@color/black"
+        android:layout_height="150dp"
+        android:layout_width="100dp"
         android:layout_toRightOf="@+id/middle"
         android:layout_below="@+id/middle"/>
+    <View
+        android:background="@color/foo"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_centerInParent="true"
+
+        />
+
 </RelativeLayout>
